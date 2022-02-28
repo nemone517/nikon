@@ -66,7 +66,6 @@ video {
   }
   .font-2-a{
     font-size:18px;
-    font-weight:100;
     position:absolute;
     top:46px;
     left:115px;
@@ -75,10 +74,9 @@ video {
     font-size:25px;
     font-weight:300;
     position:absolute;
-    top:160px;
-    
-    
-  }
+    top:153px;
+    left:210px;
+}
   
   .text-ani-1{
     transition-delay:.3s;

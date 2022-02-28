@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html lang="kor">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>윤희승 포트폴리오 | 가시안이며 비상업적 취업지원 포트폴리오 용도로만
-      사용됩니다.</title>
+        사용됩니다.</title>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <link rel="stylesheet" href="common.css">
-    <script src="common.js" defer></script>
+    <script defer src="common.js"></script>
 
-    
     <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
+    <script defer src="index.js"></script>
 </head>
+
+
 <body>
-    <div class="loading"></div>
-    <header class="top-bar z-50 con bg-transparent fixed" style="">
+    <div class="loading">
+        <div class="loader10"></div>
+      </div>
+        
+      
+      <header class="top-bar z-50 con bg-transparent fixed" style="">
         <div class="absolute w-full h-16 transform -translate-x-1/2 top-0 bg-gradient-to-b from-black to-transparent opacity-20" style="left:50%; z-index:-1;">
         </div>
         <div class="mx-auto z-75" style="width:1770px; height:80px;">
@@ -31,7 +39,7 @@
               <ul class="menu-1 flex  h-full relative">
                 <div class="menu-1__line absolute bottom-0 w-0 h-1 transition-all"></div>
                 <li>
-                  <a href="product.html" class="menu-items font-semibold"> <span>제품</span> </a>
+                  <a href="#" class="menu-items font-semibold"> <span>제품</span> </a>
                   <ul class="menu-1__sub">
                     <li><a href="#"><span>카메라</span></a></li>
                     <li><a href="#"><span>렌즈</span></a></li>
@@ -41,7 +49,7 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="#" class="menu-items font-semibold">E-Store </a>
+                  <a href="./product.html" class="menu-items font-semibold">E-Store </a>
                   <ul class="menu-1__sub">
                     <li><a href="#"><span>제품별구매</span></a></li>
                     <li><a href="#"><span>패키지/아울렛</span></a></li>
@@ -50,9 +58,9 @@
                   </ul>
                 </li>
                 <li>
-                  <a href="event.html" class="menu-items font-semibold"> 기획전 </a>
+                  <a href="#" class="menu-items font-semibold"> 기획전 </a>
                   <ul class="menu-1__sub">
-                    <li><a href="#"><span>이벤트</span></a></li>
+                    <li><a href="./event.html"><span>이벤트</span></a></li>
                     <li><a href="#"><span>예약판매</span></a></li>
                   </ul>
                 </li>
@@ -79,7 +87,7 @@
               <div class="menubox-1__sub-menu-bg"></div>
             </div>
             <div class="text-center cursor-pointer" style="margin-left:-420px;">
-              <a href="./" class="flex logo">
+              <a href="./index.html" class="flex logo">
                 <img src="https://cdn.jsdelivr.net/gh/nemone517/nikonredesign/docs/nikon_img/logo_nikon.png" alt="" style="width:194.88px;">
               </a>
             </div>
@@ -94,8 +102,9 @@
           </div>
         </div>
       </header>
+      
       <div class="swiper-box-1 con ">
-
+      
         <!-- Slider main container -->
         <div class="swiper">
           <!-- Additional required wrapper -->
@@ -130,7 +139,7 @@
                 <div class="nikon-text-3-1 text-ani-8 flex relative" data-aos="fade-right">
                   <div class="nikon-text-3-2"><a href="">자세히 보기</a></div>
                   &nbsp;
-                  <div class="font-a-1 "><i class="font-a fa-solid fa-angle-right"></i></div>
+                  <div class="font-a-1"><i class="font-a fa-solid fa-angle-right"></i></div>
                 </div>
       
               </div>
@@ -165,7 +174,7 @@
                 <div class="nikon-text-3-1 text-ani-8 flex relative" data-aos="fade-right">
                   <div class="nikon-text-3-2"><a href="">자세히 보기</a></div>
                   &nbsp;
-                  <div class="font-a-1"><i class="font-a font-a-1 fa-solid fa-angle-right"></i></div>
+                  <div><i class="font-a font-a-1 fa-solid fa-angle-right"></i></div>
                 </div>
       
               </div>
@@ -197,7 +206,7 @@
                 <div class="nikon-text-3-1 text-ani-8 flex relative" data-aos="fade-right">
                   <div class="nikon-text-3-2"><a href="">자세히 보기</a></div>
                   &nbsp;
-                  <div class=" font-a-1"><i class="font-a fa-solid fa-angle-right"></i></div>
+                  <div><i class="font-a font-a-1 fa-solid fa-angle-right"></i></div>
                 </div>
       
               </div>
@@ -334,7 +343,7 @@
           <div  data-aos="fade-right" class="bg-text">
           <div class="bg-nikon-text-1">카메라를 어떤 걸 사야 하는지 모르겠다고?</div>
           <div class="bg-nikon-text-2"># 그럴땐 # 니콘D50 이지</div>
-            <div class="bg-nikon-text-3 relative  font-2-a "><a href="">자세히 보기</a><i class="font-a fa-solid fa-angle-right"></i></div>
+            <div class="bg-nikon-text-3 relative"><a href="">자세히 보기</a><i class="font-a font-2-a fa-solid fa-angle-right"></i></div>
          
             </div>
           <img data-aos="fade-left" class="bg-nikon-ca"  src="https://cdn.jsdelivr.net/gh/rmsgkr5623/blog/docs/nikon_main_img/bn_1_2.png" alt="">
@@ -403,5 +412,6 @@
           <img src="https://cdn.jsdelivr.net/gh/rmsgkr5623/blog/docs/nikon_main_img/footer_1.png" alt="">
         </div>
       </footer>
+        
 </body>
 </html>

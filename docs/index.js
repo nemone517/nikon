@@ -1,3 +1,5 @@
+console.clear();
+
 
 function SwiperBox1__init() {
     const swiper = new Swiper(".swiper-box-1 .swiper", {
@@ -22,9 +24,9 @@ function SwiperBox1__init() {
       }
     });
   }
+
   
-  
-  function SwiperBox3__init() {
+function SwiperBox3__init() {
     const swiper = new Swiper('.swiper-box-3 .swiper', {
       slidesPerView:1.3,
       spaceBetween:30,
@@ -37,5 +39,5 @@ function SwiperBox1__init() {
       },
     });
   }
-  
+
   SwiperBox3__init();
