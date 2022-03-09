@@ -243,7 +243,6 @@ html>body{
   
   .menubox-1 > ul ul > li:hover > a {
     color: white;
-    text-decoration:underline;
   }
   
   .menubox-1__sub-menu-bg {
